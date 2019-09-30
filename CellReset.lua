@@ -11,7 +11,7 @@
 ]]
 
 local config = {}
-config.resetTime = 259200 --The time in (real life) seconds that must've passed before a cell is attempted to be reset. 259200 seconds is 3 days.
+config.resetTime = 86400 --The time in (real life) seconds that must've passed before a cell is attempted to be reset. 259200 seconds is 3 days.
 config.preserveCellChanges = true --If true, the script won't reset actors that have moved into/from the cell. At the moment, MUST be true.
 
 --Cells entered in the blacklist are exempt from cell resets.
